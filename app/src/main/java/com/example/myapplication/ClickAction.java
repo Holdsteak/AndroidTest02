@@ -1,6 +1,7 @@
 package com.example.myapplication;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
@@ -11,6 +12,7 @@ public class ClickAction {
             @Override
             public void onClick(View v) {
                 Toast.makeText(context, str, Toast.LENGTH_SHORT).show();
+                Log.d("hhhhhh", "onClick: ssssssss");
             }
         };
         return OnClickListener;
